@@ -1,5 +1,5 @@
 {
-  "name": "seo-mcp-server",
+  "name": "@euniii/seo-mcp-server",
   "version": "1.0.0",
   "description": "MCP Server for generating SEO page content",
   "main": "dist/index.js",
@@ -8,13 +8,16 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "mcp",
     "seo",
     "ai",
     "modelcontextprotocol"
   ],
-  "author": "xxxeuniii",
+  "author": "euniii",
   "license": "MIT",
   "repository": {
     "type": "git",
